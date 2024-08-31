@@ -1,4 +1,4 @@
-2. Cập nhật code trong desktop
+1. Cập nhật code trong desktop
 B1. Vào code, mở Terminal.
 B2. Nhập "git add ."
 B3. Nhập "git commit -m "thẻ bổ sung"".
