@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+<body>
+    <header>
+        <!--TIÊU ĐỀ-->
+        <h1><span style="text-transform: uppercase;">My Resume</span></h1>
+
+        <!--CÁC DANH MỤC-->
+        <nav><ul>
+                <li><a href="#tomtat">Tóm tắt</a></li>
+                <li><a href="#giaoduc">Giáo dục</a></li>
+                <li><a href="#kinhnghiem">Kinh nghiệm</a></li>
+                <li><a href="#duan">Dự án</a></li>
+                <li><a href="#kynang">Kỹ năng</a></li>
+                <li><a href="#sothich">Sở thích</a></li>
+                <li><a href="#lienhe">Liên hệ</a></li>
+            </ul></nav>
+    </header>
+    <hr width="15%" align="left" size="5" color="#1f5ca9">
+
+    <main>
+        <!--TÓM TẮT-->
+        <section id="tomtat">
+            <h2>Tóm tắt</h2>  
+            <!--ẢNH CHÂN DUNG-->
+            <img  src="./img/Chan dung.png" width="180px" alt="Ảnh chân dung">
+            <ol>  
+                <!--HỌ VÀ TÊN-->
+                <li> Họ và tên: Nguyễn Văn Định &emsp;&emsp;&emsp;&emsp;</li>
+                <!--GIỚI TÍNH-->                
+                <p>
+                    <li> Giới tính:
+                        <input type="radio" name="Giới tính" checked value="Nam">Nam
+                        <input type="radio" name="Giới tính" checked value="Nữ">Nữ
+                    </li>
+                </p>
+                <!--NGÀY SINH-->
+                <p><li>Ngày sinh: <input type="date" name="bday"></li></p>
+                <p><li>Nguyên quán: Kiên Giang</li></p>
+                <!--SỐ ĐIỆN THOẠI-->
+                <p><li>Số điện thoại: <input type="tel" name="tel" size="15"></li></p>
+                <!--QUỐC TỊCH-->
+                <p><li>Quốc tịch: Việt Nam</li></p>
+                <!--DÂN TỘC-->
+                <p><li>Dân tộc: Kinh</li></p>
+                <!--TÔN GIÁO-->
+                <p><li>Tôn giáo:  Không</li></p>
+            </ol>
+        </section>
+
+        <!--GIÁO DỤC-->
+        <section id="giaoduc">
+            <h2>Giáo dục</h2>
+            <ul>
+                <li>
+                    <span class="job-date">2009-2014:</span>
+                    <span class="job-title" style="padding-left: 20px;">Đã học tại trường Tiểu học Đông thạnh 1</span>
+                </li>
+                <li>
+                    <span class="job-date">2014-2018:</span>
+                    <span class="job-title" style="padding-left: 20px;">Đã học tại trường THCS Đông thạnh 1</span>
+                </li>
+                <li>
+                    <span class="job-date">2018-2021:</span>
+                    <span class="job-title" style="padding-left: 20px;">Đã học tại trường THPT An Minh</span>
+                </li>
+                <li>
+                    <span class="job-date">2021 đến nay:</span>
+                    <span class="job-title" style="padding-left: 20px;">Đang học tại trường Đại học Cần Thơ</span>
+                </li>
+            </ul>
+        </section>
+
+        <!--KINH NGHIỆM-->
+        <section id="kinhnghiem">
+            <h2>Kinh nghiệm</h2>
+            <ul>
+                <li>
+                    <span class="job-date">2021 đến nay:</span>
+                    <span class="job-title" style="padding-left: 20px;"></span>
+                    <ul style="padding-left: 20px;">
+                        <li>Ban cán sự lớp.</li>
+                        <li>Ban chấp hành Chi đoàn.</li>
+                        <li>Ban chấp hành Chi hội.</li>
+                        <li>Ban chấp hành Liên chi hội sinh viên Kiên Giang.</li>
+                </li>   
+            </ul>
+        </section>
+
+        <!--DỰ ÁN-->
+        <section id="duan">
+            <h2>Dự án</h2>
+            <p>Xem tại đây:
+                <a href="https://github.com/nvdinhm1/B2100469_CT428.git">https://github.com/nvdinhm1/B2100469_CT428.git</a>
+            </p>
+        </section>
+
+        <!--KỸ NĂNG-->
+        <section id="kynang">
+            <h2>Kỹ năng</h2>
+            <ul>
+                <li>Giao tiếp.</li>
+                <li>Thuyết trình.</li>
+                <li>Lập trình Scratch.</li>
+                <li>Tin học văn phòng.</li>
+            </ul>
+        </section>
+
+        <!--SỞ THÍCH-->
+        <section id="sothich">
+            <h2>Sở thích</h2>
+            <ul>
+                <li>Đọc sách.</li>
+                <li>Cầu lông.</li>
+            </ul>
+        </section>
+    
+        <!--LIÊN HỆ-->
+        <section id="lienhe">
+            <h2>Liên hệ</h2>
+            <ul>
+                <li>Email: dinhb2100469@student.ctu.edu.vn</li>
+                <li>Phone: 0825701543</li>
+                <li>Github:
+                    <a href="https://github.com/nvdinhm1/B2100469_CT428.git">xem tại đây</a>
+                </li>
+            </ul>
+        </section>
+     
+        <footer style="text-align: center;padding: 3px;background-color: #1f5ca9;color: #ffffff;">
+            <small>© 2024 B2100469 | Nguyễn Văn Định</small>
+        </footer>
+    </main>
+</body>
+</html>

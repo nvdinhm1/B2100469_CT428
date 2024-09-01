@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burgers</title>
+    <!--Thêm định dạng-->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            justify-content: center;
+            text-align: center;
+            border: 2px solid black;
+            margin: 0 470px;
+            border-radius: 15px;
+        }
+        .k{
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <span style="text-transform: uppercase;">Annie's<img src="H1.png" alt="" width="60px">Burgers</span>    
+    </h1>
+    <hr>
+    <h2>Create a burger!</h2>
+        <p>What type of protein would you like? <input type="text"></p>
+        <hr class="k">
+
+    <p>How many patties would you like? <input type="text"></p>
+        <hr class="k">
+
+    <p>How do you want your patty cooked</p>
+        <p>Rare<input  type="range" min="1" max="10" value="5">Well-done</p>
+        <hr class="k">   
+
+    <p>What toppings would you like?</p>
+        <input type="checkbox">Lettuce</label>&emsp;
+        <input type="checkbox">Tomato</label>&emsp;
+        <input type="checkbox">Onion</label>&emsp;
+        <hr class="k">
+    
+    <p>Would you like to add cheese?</p>
+        <input type="radio" name="cheese">Yes&emsp;&emsp;
+        <input type="radio" name="cheese">No
+        <hr class="k">
+
+    <p>What type of bun would you like?
+        <select name="" id="">
+            <option value="Sesame">Sesame</option>
+        </select>
+    </p>
+        <hr class="k">
+
+    <p>What type of sauce would you like? <input type="text"></p>
+        <hr class="k">
+
+    <p>Anything else you want to add?</p>
+        <textarea name="" id="" cols="40" rows="3"></textarea>
+        <hr class="k">
+
+    <input type="Submit" value="Submit">
+</body>
+</html>
