@@ -6,3 +6,5 @@ Ví dụ:
 - (Ban đầu) Visual: <img  src="H4.png" alt="Ảnh chân dung">
 - (Cập nhật) Github: git commit -m "alt"
 B4: Nhập "git push".
+----------------------------------
+Tải: live sever và Prettier - Code formatter (sắp xếp lệnh gọn ràng)
